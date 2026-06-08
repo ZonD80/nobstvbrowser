@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+<LinearLayout
+    android:id="@+id/browser_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_back"
+                style="@style/Widget.AengixTVBrowser.IconButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/back"
+                app:icon="@drawable/ic_back" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_forward"
+                style="@style/Widget.AengixTVBrowser.IconButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/forward"
+                app:icon="@drawable/ic_forward" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_reload"
+                style="@style/Widget.AengixTVBrowser.IconButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/reload"
+                app:icon="@drawable/ic_reload" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_bookmarks"
+                style="@style/Widget.AengixTVBrowser.IconButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/bookmarks_title"
+                app:icon="@drawable/ic_bookmarks" />
+
+            <EditText
+                android:id="@+id/edit_url"
+                android:layout_width="360dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/panel_bg"
+                android:clickable="true"
+                android:contentDescription="@string/bookmark_url"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:imeOptions="actionGo"
+                android:inputType="textUri"
+                android:paddingHorizontal="12dp"
+                android:singleLine="true"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_secondary" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_add_bookmark"
+                style="@style/Widget.AengixTVBrowser.IconButton.Filled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/add_bookmark"
+                app:icon="@drawable/ic_add_bookmark" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:visibility="gone" />
+
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:scrollbars="vertical|horizontal" />
+
+</LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fullscreen_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:visibility="gone" />
+
+</FrameLayout>

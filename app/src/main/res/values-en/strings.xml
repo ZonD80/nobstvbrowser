@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">No BS TV browser</string>
+    <string name="bookmarks_title">No BS TV browser - Bookmarks</string>
+    <string name="settings_title">No BS TV browser - Settings</string>
+    <string name="branding_tagline">Probably, the fastest and lightweight browser for Android TV without analytics, tracking and other BS</string>
+    <string name="branding_credit_line">%1$s © %2$s %3$s</string>
+    <string name="branding_company_name">AENGIX SL</string>
+    <string name="branding_company_url">https://aengix.com</string>
+    <string name="enter_url">Enter URL</string>
+    <string name="settings">Settings</string>
+    <string name="no_bookmarks">No bookmarks yet. Open a page and tap Add bookmark.</string>
+    <string name="edit_bookmark">Edit bookmark</string>
+    <string name="bookmark_name">Name</string>
+    <string name="bookmark_url">URL</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="open">Open</string>
+    <string name="edit">Edit</string>
+    <string name="back">Back</string>
+    <string name="forward">Forward</string>
+    <string name="reload">Reload</string>
+    <string name="add_bookmark">Add bookmark</string>
+    <string name="url_hint">https://example.com</string>
+    <string name="clear_browsing_data">Clear browsing data</string>
+    <string name="clear_browsing_data_summary">Clears cache, cookies, and site storage. Bookmarks are kept.</string>
+    <string name="clear_browsing_data_confirm">Clear all browsing data except bookmarks?</string>
+    <string name="clear_browsing_data_done">Browsing data cleared.</string>
+    <string name="yes">Yes</string>
+    <string name="loading">Loading…</string>
+    <string name="invalid_url">Enter a valid URL</string>
+    <string name="bookmark_saved">Bookmark saved</string>
+    <string name="bookmark_deleted">Bookmark deleted</string>
+    <string name="delete_bookmark_confirm">Delete this bookmark?</string>
+    <string name="page_load_timeout">Page load timed out. Tap reload to try again.</string>
+</resources>

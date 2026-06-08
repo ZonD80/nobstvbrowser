@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">No BS TV browser</string>
+    <string name="bookmarks_title">No BS TV browser – Bokmärken</string>
+    <string name="settings_title">No BS TV browser – Inställningar</string>
+    <string name="branding_tagline">Förmodligen den snabbaste och lättaste webbläsaren för Android TV – utan analys, spårning och annat trams</string>
+    <string name="branding_credit_line">%1$s © %2$s %3$s</string>
+    <string name="branding_company_name">AENGIX SL</string>
+    <string name="branding_company_url">https://aengix.com</string>
+    <string name="enter_url">Ange URL</string>
+    <string name="settings">Inställningar</string>
+    <string name="no_bookmarks">Inga bokmärken ännu. Öppna en sida och tryck på Lägg till bokmärke.</string>
+    <string name="edit_bookmark">Redigera bokmärke</string>
+    <string name="bookmark_name">Namn</string>
+    <string name="bookmark_url">URL</string>
+    <string name="save">Spara</string>
+    <string name="delete">Ta bort</string>
+    <string name="cancel">Avbryt</string>
+    <string name="open">Öppna</string>
+    <string name="edit">Redigera</string>
+    <string name="back">Tillbaka</string>
+    <string name="forward">Framåt</string>
+    <string name="reload">Ladda om</string>
+    <string name="add_bookmark">Lägg till bokmärke</string>
+    <string name="url_hint">https://example.com</string>
+    <string name="clear_browsing_data">Rensa webbdata</string>
+    <string name="clear_browsing_data_summary">Rensar cache, cookies och webbplatslagring. Bokmärken behålls.</string>
+    <string name="clear_browsing_data_confirm">Rensa all webbdata utom bokmärken?</string>
+    <string name="clear_browsing_data_done">Webbdata rensad.</string>
+    <string name="yes">Ja</string>
+    <string name="loading">Laddar…</string>
+    <string name="invalid_url">Ange en giltig URL</string>
+    <string name="bookmark_saved">Bokmärke sparat</string>
+    <string name="bookmark_deleted">Bokmärke borttaget</string>
+    <string name="delete_bookmark_confirm">Ta bort detta bokmärke?</string>
+    <string name="page_load_timeout">Tidsgräns för sidladdning. Tryck på Ladda om för att försöka igen.</string>
+</resources>

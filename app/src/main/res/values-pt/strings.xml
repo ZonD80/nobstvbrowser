@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">No BS TV browser</string>
+    <string name="bookmarks_title">No BS TV browser – Marcadores</string>
+    <string name="settings_title">No BS TV browser – Definições</string>
+    <string name="branding_tagline">Provavelmente o navegador mais rápido e leve para Android TV, sem análises, rastreamento e outras asneiras</string>
+    <string name="branding_credit_line">%1$s © %2$s %3$s</string>
+    <string name="branding_company_name">AENGIX SL</string>
+    <string name="branding_company_url">https://aengix.com</string>
+    <string name="enter_url">Introduzir URL</string>
+    <string name="settings">Definições</string>
+    <string name="no_bookmarks">Ainda sem marcadores. Abra uma página e toque em Adicionar marcador.</string>
+    <string name="edit_bookmark">Editar marcador</string>
+    <string name="bookmark_name">Nome</string>
+    <string name="bookmark_url">URL</string>
+    <string name="save">Guardar</string>
+    <string name="delete">Eliminar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="open">Abrir</string>
+    <string name="edit">Editar</string>
+    <string name="back">Voltar</string>
+    <string name="forward">Avançar</string>
+    <string name="reload">Recarregar</string>
+    <string name="add_bookmark">Adicionar marcador</string>
+    <string name="url_hint">https://example.com</string>
+    <string name="clear_browsing_data">Limpar dados de navegação</string>
+    <string name="clear_browsing_data_summary">Limpa a cache, cookies e armazenamento dos sites. Os marcadores são mantidos.</string>
+    <string name="clear_browsing_data_confirm">Limpar todos os dados de navegação exceto marcadores?</string>
+    <string name="clear_browsing_data_done">Dados de navegação limpos.</string>
+    <string name="yes">Sim</string>
+    <string name="loading">A carregar…</string>
+    <string name="invalid_url">Introduza um URL válido</string>
+    <string name="bookmark_saved">Marcador guardado</string>
+    <string name="bookmark_deleted">Marcador eliminado</string>
+    <string name="delete_bookmark_confirm">Eliminar este marcador?</string>
+    <string name="page_load_timeout">Tempo de carregamento esgotado. Toque em Recarregar para tentar novamente.</string>
+</resources>

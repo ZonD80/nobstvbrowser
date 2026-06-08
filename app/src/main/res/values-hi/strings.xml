@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">No BS TV browser</string>
+    <string name="bookmarks_title">No BS TV browser – बुकमार्क</string>
+    <string name="settings_title">No BS TV browser – सेटिंग्स</string>
+    <string name="branding_tagline">शायद Android TV के लिए सबसे तेज़ और हल्का ब्राउज़र — बिना एनालिटिक्स, ट्रैकिंग और अन्य बकवास के</string>
+    <string name="branding_credit_line">%1$s © %2$s %3$s</string>
+    <string name="branding_company_name">AENGIX SL</string>
+    <string name="branding_company_url">https://aengix.com</string>
+    <string name="enter_url">URL दर्ज करें</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="no_bookmarks">अभी कोई बुकमार्क नहीं। कोई पेज खोलें और बुकमार्क जोड़ें पर टैप करें।</string>
+    <string name="edit_bookmark">बुकमार्क संपादित करें</string>
+    <string name="bookmark_name">नाम</string>
+    <string name="bookmark_url">URL</string>
+    <string name="save">सहेजें</string>
+    <string name="delete">हटाएं</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="open">खोलें</string>
+    <string name="edit">संपादित करें</string>
+    <string name="back">पीछे</string>
+    <string name="forward">आगे</string>
+    <string name="reload">रीलोड</string>
+    <string name="add_bookmark">बुकमार्क जोड़ें</string>
+    <string name="url_hint">https://example.com</string>
+    <string name="clear_browsing_data">ब्राउज़िंग डेटा साफ़ करें</string>
+    <string name="clear_browsing_data_summary">कैश, कुकीज़ और साइट स्टोरेज साफ़ करता है। बुकमार्क रखे जाते हैं।</string>
+    <string name="clear_browsing_data_confirm">बुकमार्क को छोड़कर सभी ब्राउज़िंग डेटा साफ़ करें?</string>
+    <string name="clear_browsing_data_done">ब्राउज़िंग डेटा साफ़ किया गया।</string>
+    <string name="yes">हाँ</string>
+    <string name="loading">लोड हो रहा है…</string>
+    <string name="invalid_url">मान्य URL दर्ज करें</string>
+    <string name="bookmark_saved">बुकमार्क सहेजा गया</string>
+    <string name="bookmark_deleted">बुकमार्क हटाया गया</string>
+    <string name="delete_bookmark_confirm">यह बुकमार्क हटाएं?</string>
+    <string name="page_load_timeout">पेज लोड का समय समाप्त। पुनः प्रयास के लिए रीलोड पर टैप करें।</string>
+</resources>

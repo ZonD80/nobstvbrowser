@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">No BS TV browser</string>
+    <string name="bookmarks_title">No BS TV browser – Segnalibri</string>
+    <string name="settings_title">No BS TV browser – Impostazioni</string>
+    <string name="branding_tagline">Probabilmente il browser più veloce e leggero per Android TV, senza analisi, tracciamento e altre sciocchezze</string>
+    <string name="branding_credit_line">%1$s © %2$s %3$s</string>
+    <string name="branding_company_name">AENGIX SL</string>
+    <string name="branding_company_url">https://aengix.com</string>
+    <string name="enter_url">Inserisci URL</string>
+    <string name="settings">Impostazioni</string>
+    <string name="no_bookmarks">Nessun segnalibro ancora. Apri una pagina e tocca Aggiungi segnalibro.</string>
+    <string name="edit_bookmark">Modifica segnalibro</string>
+    <string name="bookmark_name">Nome</string>
+    <string name="bookmark_url">URL</string>
+    <string name="save">Salva</string>
+    <string name="delete">Elimina</string>
+    <string name="cancel">Annulla</string>
+    <string name="open">Apri</string>
+    <string name="edit">Modifica</string>
+    <string name="back">Indietro</string>
+    <string name="forward">Avanti</string>
+    <string name="reload">Ricarica</string>
+    <string name="add_bookmark">Aggiungi segnalibro</string>
+    <string name="url_hint">https://example.com</string>
+    <string name="clear_browsing_data">Cancella dati di navigazione</string>
+    <string name="clear_browsing_data_summary">Cancella cache, cookie e archiviazione dei siti. I segnalibri vengono conservati.</string>
+    <string name="clear_browsing_data_confirm">Cancellare tutti i dati di navigazione tranne i segnalibri?</string>
+    <string name="clear_browsing_data_done">Dati di navigazione cancellati.</string>
+    <string name="yes">Sì</string>
+    <string name="loading">Caricamento…</string>
+    <string name="invalid_url">Inserisci un URL valido</string>
+    <string name="bookmark_saved">Segnalibro salvato</string>
+    <string name="bookmark_deleted">Segnalibro eliminato</string>
+    <string name="delete_bookmark_confirm">Eliminare questo segnalibro?</string>
+    <string name="page_load_timeout">Timeout di caricamento. Tocca Ricarica per riprovare.</string>
+</resources>

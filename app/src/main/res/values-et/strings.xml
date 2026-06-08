@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">No BS TV browser</string>
+    <string name="bookmarks_title">No BS TV browser – Järjehoidjad</string>
+    <string name="settings_title">No BS TV browser – Seaded</string>
+    <string name="branding_tagline">Tõenäoliselt kiireim ja kergeim brauser Android TV-le – ilma analüütika, jälgimise ja muu jama</string>
+    <string name="branding_credit_line">%1$s © %2$s %3$s</string>
+    <string name="branding_company_name">AENGIX SL</string>
+    <string name="branding_company_url">https://aengix.com</string>
+    <string name="enter_url">Sisesta URL</string>
+    <string name="settings">Seaded</string>
+    <string name="no_bookmarks">Järjehoidjaid pole veel. Ava leht ja puuduta Lisa järjehoidja.</string>
+    <string name="edit_bookmark">Muuda järjehoidjat</string>
+    <string name="bookmark_name">Nimi</string>
+    <string name="bookmark_url">URL</string>
+    <string name="save">Salvesta</string>
+    <string name="delete">Kustuta</string>
+    <string name="cancel">Tühista</string>
+    <string name="open">Ava</string>
+    <string name="edit">Muuda</string>
+    <string name="back">Tagasi</string>
+    <string name="forward">Edasi</string>
+    <string name="reload">Laadi uuesti</string>
+    <string name="add_bookmark">Lisa järjehoidja</string>
+    <string name="url_hint">https://example.com</string>
+    <string name="clear_browsing_data">Kustuta sirvimisandmed</string>
+    <string name="clear_browsing_data_summary">Kustutab vahemälu, küpsised ja saidi andmed. Järjehoidjad säilitatakse.</string>
+    <string name="clear_browsing_data_confirm">Kustutada kõik sirvimisandmed peale järjehoidjate?</string>
+    <string name="clear_browsing_data_done">Sirvimisandmed kustutatud.</string>
+    <string name="yes">Jah</string>
+    <string name="loading">Laadimine…</string>
+    <string name="invalid_url">Sisesta kehtiv URL</string>
+    <string name="bookmark_saved">Järjehoidja salvestatud</string>
+    <string name="bookmark_deleted">Järjehoidja kustutatud</string>
+    <string name="delete_bookmark_confirm">Kustutada see järjehoidja?</string>
+    <string name="page_load_timeout">Lehe laadimise aeg sai täis. Puuduta Laadi uuesti, et uuesti proovida.</string>
+</resources>

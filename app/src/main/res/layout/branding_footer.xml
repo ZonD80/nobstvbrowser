@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text_branding_footer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="false"
+    android:gravity="center"
+    android:lineSpacingExtra="4dp"
+    android:textAlignment="center"
+    android:paddingTop="16dp"
+    android:textColor="@color/text_secondary"
+    android:textColorLink="@color/primary"
+    android:textSize="14sp" />

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">No BS TV browser</string>
+    <string name="bookmarks_title">No BS TV browser – Закладки</string>
+    <string name="settings_title">No BS TV browser – Налаштування</string>
+    <string name="branding_tagline">Ймовірно, найшвидший і найлегший браузер для Android TV — без аналітики, відстеження та іншої дурниці</string>
+    <string name="branding_credit_line">%1$s © %2$s %3$s</string>
+    <string name="branding_company_name">AENGIX SL</string>
+    <string name="branding_company_url">https://aengix.com</string>
+    <string name="enter_url">Ввести URL</string>
+    <string name="settings">Налаштування</string>
+    <string name="no_bookmarks">Закладок ще немає. Відкрийте сторінку та натисніть «Додати закладку».</string>
+    <string name="edit_bookmark">Редагувати закладку</string>
+    <string name="bookmark_name">Назва</string>
+    <string name="bookmark_url">URL</string>
+    <string name="save">Зберегти</string>
+    <string name="delete">Видалити</string>
+    <string name="cancel">Скасувати</string>
+    <string name="open">Відкрити</string>
+    <string name="edit">Редагувати</string>
+    <string name="back">Назад</string>
+    <string name="forward">Вперед</string>
+    <string name="reload">Оновити</string>
+    <string name="add_bookmark">Додати закладку</string>
+    <string name="url_hint">https://example.com</string>
+    <string name="clear_browsing_data">Очистити дані браузера</string>
+    <string name="clear_browsing_data_summary">Видаляє кеш, cookie та дані сайтів. Закладки зберігаються.</string>
+    <string name="clear_browsing_data_confirm">Очистити всі дані браузера, крім закладок?</string>
+    <string name="clear_browsing_data_done">Дані браузера очищено.</string>
+    <string name="yes">Так</string>
+    <string name="loading">Завантаження…</string>
+    <string name="invalid_url">Введіть коректну URL-адресу</string>
+    <string name="bookmark_saved">Закладку збережено</string>
+    <string name="bookmark_deleted">Закладку видалено</string>
+    <string name="delete_bookmark_confirm">Видалити цю закладку?</string>
+    <string name="page_load_timeout">Час завантаження вичерпано. Натисніть «Оновити», щоб спробувати знову.</string>
+</resources>

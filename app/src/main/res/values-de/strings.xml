@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">No BS TV browser</string>
+    <string name="bookmarks_title">No BS TV browser – Lesezeichen</string>
+    <string name="settings_title">No BS TV browser – Einstellungen</string>
+    <string name="branding_tagline">Wahrscheinlich der schnellste und leichteste Browser für Android TV – ohne Analysen, Tracking und anderen BS</string>
+    <string name="branding_credit_line">%1$s © %2$s %3$s</string>
+    <string name="branding_company_name">AENGIX SL</string>
+    <string name="branding_company_url">https://aengix.com</string>
+    <string name="enter_url">URL eingeben</string>
+    <string name="settings">Einstellungen</string>
+    <string name="no_bookmarks">Noch keine Lesezeichen. Öffnen Sie eine Seite und tippen Sie auf Lesezeichen hinzufügen.</string>
+    <string name="edit_bookmark">Lesezeichen bearbeiten</string>
+    <string name="bookmark_name">Name</string>
+    <string name="bookmark_url">URL</string>
+    <string name="save">Speichern</string>
+    <string name="delete">Löschen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="open">Öffnen</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="back">Zurück</string>
+    <string name="forward">Vorwärts</string>
+    <string name="reload">Neu laden</string>
+    <string name="add_bookmark">Lesezeichen hinzufügen</string>
+    <string name="url_hint">https://example.com</string>
+    <string name="clear_browsing_data">Browserdaten löschen</string>
+    <string name="clear_browsing_data_summary">Löscht Cache, Cookies und Website-Speicher. Lesezeichen bleiben erhalten.</string>
+    <string name="clear_browsing_data_confirm">Alle Browserdaten außer Lesezeichen löschen?</string>
+    <string name="clear_browsing_data_done">Browserdaten gelöscht.</string>
+    <string name="yes">Ja</string>
+    <string name="loading">Wird geladen…</string>
+    <string name="invalid_url">Geben Sie eine gültige URL ein</string>
+    <string name="bookmark_saved">Lesezeichen gespeichert</string>
+    <string name="bookmark_deleted">Lesezeichen gelöscht</string>
+    <string name="delete_bookmark_confirm">Dieses Lesezeichen löschen?</string>
+    <string name="page_load_timeout">Zeitüberschreitung beim Laden. Tippen Sie auf Neu laden, um es erneut zu versuchen.</string>
+</resources>

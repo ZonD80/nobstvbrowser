@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">No BS TV browser</string>
+    <string name="bookmarks_title">No BS TV browser – Favoris</string>
+    <string name="settings_title">No BS TV browser – Paramètres</string>
+    <string name="branding_tagline">Probablement le navigateur le plus rapide et léger pour Android TV, sans analyses, suivi ni autres absurdités</string>
+    <string name="branding_credit_line">%1$s © %2$s %3$s</string>
+    <string name="branding_company_name">AENGIX SL</string>
+    <string name="branding_company_url">https://aengix.com</string>
+    <string name="enter_url">Saisir l\'URL</string>
+    <string name="settings">Paramètres</string>
+    <string name="no_bookmarks">Aucun favori pour l\'instant. Ouvrez une page et appuyez sur Ajouter un favori.</string>
+    <string name="edit_bookmark">Modifier le favori</string>
+    <string name="bookmark_name">Nom</string>
+    <string name="bookmark_url">URL</string>
+    <string name="save">Enregistrer</string>
+    <string name="delete">Supprimer</string>
+    <string name="cancel">Annuler</string>
+    <string name="open">Ouvrir</string>
+    <string name="edit">Modifier</string>
+    <string name="back">Retour</string>
+    <string name="forward">Suivant</string>
+    <string name="reload">Actualiser</string>
+    <string name="add_bookmark">Ajouter un favori</string>
+    <string name="url_hint">https://example.com</string>
+    <string name="clear_browsing_data">Effacer les données de navigation</string>
+    <string name="clear_browsing_data_summary">Efface le cache, les cookies et le stockage des sites. Les favoris sont conservés.</string>
+    <string name="clear_browsing_data_confirm">Effacer toutes les données de navigation sauf les favoris ?</string>
+    <string name="clear_browsing_data_done">Données de navigation effacées.</string>
+    <string name="yes">Oui</string>
+    <string name="loading">Chargement…</string>
+    <string name="invalid_url">Saisissez une URL valide</string>
+    <string name="bookmark_saved">Favori enregistré</string>
+    <string name="bookmark_deleted">Favori supprimé</string>
+    <string name="delete_bookmark_confirm">Supprimer ce favori ?</string>
+    <string name="page_load_timeout">Délai de chargement dépassé. Appuyez sur Actualiser pour réessayer.</string>
+</resources>
