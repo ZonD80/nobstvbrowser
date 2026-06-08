@@ -56,17 +56,49 @@ Probably the fastest and lightest way to browse the web on your TV. No accounts,
 
 ## Build
 
+### Release signing
+
+Release builds are signed automatically. The keystore lives outside the repo at:
+
+```
+~/googlePlayKeys.jks
+```
+
+Credentials are read from `keystore.properties` in the project root (gitignored). Create it before building:
+
+```properties
+storePassword=your_store_password
+keyPassword=your_key_password
+keyAlias=upload
+```
+
+To generate a new keystore:
+
+```bash
+keytool -genkeypair -v \
+  -keystore ~/googlePlayKeys.jks \
+  -alias upload \
+  -keyalg RSA \
+  -keysize 2048 \
+  -validity 10000 \
+  -storepass YOUR_STORE_PASSWORD \
+  -keypass YOUR_KEY_PASSWORD \
+  -dname "CN=No BS TV browser, OU=Mobile, O=AENGIX SL, L=Barcelona, ST=Barcelona, C=ES"
+```
+
+### Build commands
+
 ```bash
 ./gradlew assembleRelease
 ```
 
-The unsigned release APK is written to:
+The signed release APK is written to:
 
 ```
-app/build/outputs/apk/release/app-release-unsigned.apk
+app/build/outputs/apk/release/app-release.apk
 ```
 
-For a debug build:
+For a debug build (unsigned):
 
 ```bash
 ./gradlew assembleDebug
@@ -77,7 +109,7 @@ For a debug build:
 ## Install
 
 ```bash
-adb install app/build/outputs/apk/release/app-release-unsigned.apk
+adb install app/build/outputs/apk/release/app-release.apk
 ```
 
 Or sideload the APK on your Android TV via a file manager or `adb`.
