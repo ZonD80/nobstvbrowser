@@ -2,6 +2,7 @@ package com.aengix.tvbrowser
 
 import android.os.Bundle
 import android.view.KeyEvent
+import android.view.WindowManager
 import android.widget.FrameLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.DialogFragment
@@ -13,15 +14,18 @@ class MainActivity : AppCompatActivity(),
     BrowserFragment.Listener {
 
     private lateinit var bookmarkStore: BookmarkStore
+    private lateinit var cursorSpeedStore: CursorSpeedStore
     private lateinit var dpadCursor: DpadCursorController
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         bookmarkStore = BookmarkStore(this)
+        cursorSpeedStore = CursorSpeedStore(this)
 
         val contentRoot = findViewById<FrameLayout>(R.id.root_container)
         dpadCursor = DpadCursorController(this, contentRoot)
+        dpadCursor.setSpeedMultiplier(cursorSpeedStore.get().multiplier)
         dpadCursor.attach()
         registerDialogCursorCallbacks()
 
@@ -33,6 +37,16 @@ class MainActivity : AppCompatActivity(),
                 showBookmarks()
             }
         }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+    }
+
+    override fun onPause() {
+        window.clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+        super.onPause()
     }
 
     override fun onDestroy() {
@@ -118,6 +132,13 @@ class MainActivity : AppCompatActivity(),
     }
 
     fun bookmarkStore(): BookmarkStore = bookmarkStore
+
+    fun cursorSpeed(): CursorSpeedStore.Speed = cursorSpeedStore.get()
+
+    fun setCursorSpeed(speed: CursorSpeedStore.Speed) {
+        cursorSpeedStore.set(speed)
+        dpadCursor.setSpeedMultiplier(speed.multiplier)
+    }
 
     fun bindWebViewForEdgeScroll(webView: android.webkit.WebView?) {
         dpadCursor.bindWebViewForEdgeScroll(webView)

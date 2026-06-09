@@ -39,6 +39,9 @@ class DpadCursorController(
     private var cursorScreenX = 0f
     private var cursorScreenY = 0f
     private var moveStepPx = 0f
+    private var keyRepeatInitialMs = KEY_REPEAT_INITIAL_MS
+    private var keyRepeatIntervalMs = KEY_REPEAT_INTERVAL_MS
+    private var speedMultiplier = 1f
     private var cursorHost: ViewGroup? = null
     private var keyInterceptedDialog: Dialog? = null
     private var originalWindowCallback: Window.Callback? = null
@@ -54,7 +57,7 @@ class DpadCursorController(
                 return
             }
             if (moveCursor(repeatDirection)) {
-                handler.postDelayed(this, KEY_REPEAT_INTERVAL_MS)
+                handler.postDelayed(this, keyRepeatIntervalMs)
             } else {
                 repeating = false
                 repeatDirection = 0
@@ -63,9 +66,14 @@ class DpadCursorController(
     }
 
     fun attach() {
-        moveStepPx = MOVE_STEP_DP * activity.resources.displayMetrics.density
+        applySpeedMultiplier()
         attachCursorToHost(activity.window.decorView as ViewGroup)
         contentRoot.doOnLayout { placeCursorInitially() }
+    }
+
+    fun setSpeedMultiplier(multiplier: Float) {
+        speedMultiplier = multiplier
+        applySpeedMultiplier()
     }
 
     fun onDialogVisibilityChanged() {
@@ -146,7 +154,7 @@ class DpadCursorController(
         repeatDirection = direction
         if (repeating) return
         repeating = true
-        handler.postDelayed(repeatRunnable, KEY_REPEAT_INITIAL_MS)
+        handler.postDelayed(repeatRunnable, keyRepeatInitialMs)
     }
 
     private fun stopRepeating() {
@@ -585,6 +593,19 @@ class DpadCursorController(
             InputDevice.SOURCE_TOUCHSCREEN,
             0
         )
+    }
+
+    private fun applySpeedMultiplier() {
+        val density = activity.resources.displayMetrics.density
+        moveStepPx = MOVE_STEP_DP * density * speedMultiplier
+        keyRepeatInitialMs = (KEY_REPEAT_INITIAL_MS / speedMultiplier)
+            .roundToInt()
+            .toLong()
+            .coerceAtLeast(100L)
+        keyRepeatIntervalMs = (KEY_REPEAT_INTERVAL_MS / speedMultiplier)
+            .roundToInt()
+            .toLong()
+            .coerceAtLeast(20L)
     }
 
     private data class Bounds(

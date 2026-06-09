@@ -23,6 +23,10 @@
     <string name="reload">Reload</string>
     <string name="add_bookmark">Add bookmark</string>
     <string name="url_hint">https://example.com</string>
+    <string name="cursor_speed">Cursor speed</string>
+    <string name="cursor_speed_half">0.5x</string>
+    <string name="cursor_speed_normal">1x</string>
+    <string name="cursor_speed_double">2x</string>
     <string name="clear_browsing_data">Clear browsing data</string>
     <string name="clear_browsing_data_summary">Clears cache, cookies, and site storage. Bookmarks are kept.</string>
     <string name="clear_browsing_data_confirm">Clear all browsing data except bookmarks?</string>

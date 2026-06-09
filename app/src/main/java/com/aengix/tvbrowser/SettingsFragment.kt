@@ -52,8 +52,30 @@ class SettingsFragment : Fragment() {
             )
         }
 
+        setupCursorSpeedControls()
+
         BrandingFooter.bind(binding.brandingFooter.textBrandingFooter) { url ->
             (requireActivity() as MainActivity).openBrowser(url)
+        }
+    }
+
+    private fun setupCursorSpeedControls() {
+        val activity = requireActivity() as MainActivity
+        val selectedId = when (activity.cursorSpeed()) {
+            CursorSpeedStore.Speed.HALF -> R.id.button_speed_half
+            CursorSpeedStore.Speed.NORMAL -> R.id.button_speed_normal
+            CursorSpeedStore.Speed.DOUBLE -> R.id.button_speed_double
+        }
+        binding.toggleCursorSpeed.check(selectedId)
+
+        binding.toggleCursorSpeed.addOnButtonCheckedListener { _, checkedId, isChecked ->
+            if (!isChecked) return@addOnButtonCheckedListener
+            val speed = when (checkedId) {
+                R.id.button_speed_half -> CursorSpeedStore.Speed.HALF
+                R.id.button_speed_double -> CursorSpeedStore.Speed.DOUBLE
+                else -> CursorSpeedStore.Speed.NORMAL
+            }
+            activity.setCursorSpeed(speed)
         }
     }
 
