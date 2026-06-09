@@ -6,6 +6,7 @@
 .DS_Store
 /build/
 /app/build/
+.venv-icons/
 /captures/
 .externalNativeBuild/
 .cxx/
